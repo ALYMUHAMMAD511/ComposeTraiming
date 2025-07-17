@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ComposeTest</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="jetpack_compose">JETPACK COMPOSE</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+</resources>
