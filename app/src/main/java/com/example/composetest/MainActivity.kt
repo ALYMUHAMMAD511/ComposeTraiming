@@ -6,7 +6,6 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
-import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
@@ -81,16 +80,6 @@ fun MyText(text: String) {
         text = text,
         color = Color.Blue,
         fontSize = 24.sp,
-        fontWeight = FontWeight.Bold
-    )
-}
-
-@Composable
-fun MyText2(text: String) {
-    Text(
-        text = text,
-        color = Color.Blue,
-        fontSize = 14.sp,
         fontWeight = FontWeight.Bold
     )
 }
